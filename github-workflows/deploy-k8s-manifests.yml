@@ -7,8 +7,6 @@ on:
 env:
   BRANCH_RELEASE: releases/k8s-manifests
   BRANCH_DEPLOY: deploys/k8s-manifests
-  REGCRED_NAMESPACES: |
-    chime
 
 jobs:
   deploy-k8s-manifests:
@@ -67,14 +65,8 @@ jobs:
       run: |
 
         while IFS= read -r namespace; do
+          namespace="$(basename "${namespace}")"
           cat <<EOF | kubectl apply -f - | tee -a /tmp/kube.log
-        apiVersion: v1
-        kind: Namespace
-        metadata:
-          namespace: ${namespace}
-
-        ---
-
         apiVersion: v1
         kind: Secret
         metadata:
@@ -84,7 +76,7 @@ jobs:
         data:
           .dockerconfigjson: ${{ secrets.DOCKER_CONFIG_BASE64 }}
         EOF
-        done <<< "${REGCRED_NAMESPACES}"
+        done <<< "$(find . -maxdepth 1 -type d -not -name '_' -not -name '.*')"
 
     - name: Add comment to PR
       env:
