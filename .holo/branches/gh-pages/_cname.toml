@@ -1,0 +1,4 @@
+[holomapping]
+holosource = "civic-cloud"
+root = "docs"
+files = "CNAME"
