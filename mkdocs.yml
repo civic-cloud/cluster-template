@@ -43,3 +43,8 @@ markdown_extensions:
   - smarty
   - fontawesome_markdown
   - mdx_truly_sane_lists
+
+extra:
+  cluster:
+    wildcard_hostname: mycluster.k8s.example.net
+    cluster_issuer: letsencrypt-prod
