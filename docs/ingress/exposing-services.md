@@ -1,4 +1,4 @@
-# Ingress
+# Exposing services
 
 `*.{{ cluster.wildcard_hostname }}` should be configured to resolve to the cluster's `ingress-nginx` service.
 
