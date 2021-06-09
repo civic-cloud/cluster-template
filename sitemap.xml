@@ -6,12 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://codeforphilly.github.io/civic-cloud/grafana/</loc>
+         <loc>https://codeforphilly.github.io/civic-cloud/grafana/setup/</loc>
          <lastmod>2021-06-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://codeforphilly.github.io/civic-cloud/ingress/</loc>
+         <loc>https://codeforphilly.github.io/civic-cloud/ingress/exposing-services/</loc>
          <lastmod>2021-06-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
