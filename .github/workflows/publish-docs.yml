@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main ]
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  HAB_LICENSE: accept-no-persist
+
 
 jobs:
   publish-docs:
@@ -12,9 +16,6 @@ jobs:
 
     - name: 'Project gh-pages holobranch'
       uses: JarvusInnovations/hologit@actions/projector/v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        HAB_LICENSE: accept
       with:
         holobranch: gh-pages
         commit-to: gh-pages

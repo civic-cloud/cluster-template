@@ -1,0 +1,4 @@
+extra:
+  studio:
+    name: civic-cloud-studio
+    docs_port: 1706

@@ -1,0 +1,6 @@
+repo_url: https://github.com/CodeForPhilly/civic-cloud
+
+extra:
+  repository:
+    name: civic-cloud
+    url: git@github.com:CodeForPhilly/civic-cloud.git

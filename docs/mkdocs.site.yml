@@ -1,0 +1,7 @@
+site_name: Civic Cloud Cluster
+site_url: https://codeforphilly.github.io/civic-cloud
+
+theme:
+  palette:
+    primary: "light blue"
+    accent: "amber"
