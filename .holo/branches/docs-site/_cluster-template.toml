@@ -1,4 +1,4 @@
 [holomapping]
-holosource = "=>docs-skeleton"
+holosource = "=>docs-blueprint"
 files = "**"
 before = "*"
