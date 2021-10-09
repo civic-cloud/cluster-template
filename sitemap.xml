@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://codeforphilly.github.io/civic-cloud/development/features/sealed-secrets/</loc>
+         <lastmod>2021-10-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://codeforphilly.github.io/civic-cloud/getting-started/</loc>
          <lastmod>2021-10-09</lastmod>
          <changefreq>daily</changefreq>
