@@ -2,52 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/development/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/development/features/ingress/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/development/features/sealed-secrets/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/getting-started/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/getting-started/service-setup/grafana/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/getting-started/service-setup/sealed-secrets/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/operations/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/operations/upgrades/to-0.20/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
     <url>
          <loc>https://codeforphilly.github.io/civic-cloud/operations/upgrades/to-1.0/</loc>
-         <lastmod>2024-04-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-10-14</lastmod>
     </url>
 </urlset>
